@@ -36,6 +36,7 @@ class LoginActivity : AppCompatActivity() {
                             call: Call<LoginResponse>,
                             response: Response<LoginResponse>
                         ) {
+//                            val jArray:
                             val loginStatus: Int? = response.body()?.user?.status
                             val userArray = response.body()?.user.toString()
                             if (response.isSuccessful) {
