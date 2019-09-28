@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GauSeva</string>
+    <string name="login">Log In</string>
+    <string name="enter_phone">Enter Email</string>
+    <string name="Fname">First Name</string>
+    <string name="Lname">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="SignUp">Sign Up</string>
+
+</resources>
