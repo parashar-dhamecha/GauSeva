@@ -15,14 +15,9 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+
         val loginIntent = Intent()
-        val userArray = loginIntent.getStringArrayExtra("UserArray")
-//        val jsonArray:ArrayList<String> = ArrayList()
-////        jsonArray.addAll(listOf(userArray))
-//        jsonArray.add(userArray)
-        Toast.makeText(applicationContext, "" + userArray, Toast.LENGTH_LONG).show()
-
+        val jArray = loginIntent.getStringExtra("UserArray")
+        Toast.makeText(applicationContext, "" + jArray, Toast.LENGTH_LONG).show()
     }
-
-
 }

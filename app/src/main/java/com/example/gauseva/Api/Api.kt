@@ -1,13 +1,12 @@
 package com.example.gauseva.Api
 
 import com.example.gauseva.Models.LoginResponse
-import com.example.gauseva.Models.User
 import retrofit2.Call
 import retrofit2.http.*
 
 interface Api {
 
-//Register User
+//Register Data
     @FormUrlEncoded
     @Headers("Content-Type:application/x-www-form-urlencoded")
     @POST("register")

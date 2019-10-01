@@ -1,6 +1,6 @@
 package com.example.gauseva.Models
 
-//data class User(
+//data class Data(
 //    val name: String,
 //    val username: String,
 //    val email: String,
@@ -15,13 +15,11 @@ package com.example.gauseva.Models
 //    val message: String,
 //    val status: Int
 //)
-
 /////////////////
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class User {
-
+class Data {
     @SerializedName("name")
     @Expose
     var name: String? = null
